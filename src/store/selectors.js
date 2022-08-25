@@ -1,0 +1,13 @@
+export const selectSnackbar = state => state.ui.isSnackbar
+export const selectModalValue = state => state.ui.isModal
+export const selectNotification = state => state.ui.notification
+export const selectIsMyMenu = state => state.ui.isMyMenu
+export const selectIsCartOpen = state => state.ui.isCartOpen
+export const selectNotificationValue = state => state.ui.notificationValue
+export const selectSearchValue = state => state.utils.search
+export const selectDisabled = state => state.utils.disabled
+export const selectDrawerBottom = state => state.utils.drawerBottom
+export const selectCategoryValue = state => state.utils.categoryValue
+export const selectSortValue = state => state.utils.sortValue
+export const selectOrderValue = state => state.utils.orderValue
+export const selectFilterValue = state => state.utils.filterValue
